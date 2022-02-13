@@ -1,0 +1,2 @@
+install:
+mvn install:install-file -Dfile=CGWallet.aar -Dsources=CGWallet-sources.jar -DgroupId=com.github.coingrig -DartifactId=CGWallet -Dversion=0.1.6 -Dpackaging=aar -DgeneratePom=true
